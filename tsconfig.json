@@ -1,3 +1,21 @@
 {
-  "extends": "astro/tsconfigs/base"
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*":     ["assets/*"],
+      "@config":       ["config.ts"],
+      "@components/*": ["components/*"],
+      "@posts/*":      ["pages/posts/*"],
+      "@layouts/*":    ["layouts/*"],
+      "@pages/*":      ["pages/*"],
+      "@styles/*":     ["styles/*"],
+      "@utils/*":      ["utils/*"],
+      "@scripts/*":    ["scripts/*"],
+    },
+  }
 }
