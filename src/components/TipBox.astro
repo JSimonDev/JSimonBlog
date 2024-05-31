@@ -1,0 +1,32 @@
+---
+const { icon, text } = Astro.props;
+---
+
+<div class="card">
+    <span class="icon">{icon}</span>
+    <p class="text">{text}</p>
+</div>
+
+<style>
+  .card {
+  background-color: var(--card-background-color);
+  border-left: 5px solid var(--card-border-color);
+  padding: 21px 28px; 
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.text {
+  margin: 0;
+  color: var(--card-text-color);
+  font-size: 16px;
+}
+</style>
