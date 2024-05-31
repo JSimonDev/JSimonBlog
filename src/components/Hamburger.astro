@@ -1,0 +1,38 @@
+---
+
+---
+
+<div class="hamburger">
+  <svg
+    class="hamburger-icon"
+    width="30"
+    height="30"
+    fill="none"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M4 5L20 5"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <path
+      d="M4 12L20 12"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <path
+      d="M4 19L20 19"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+  </svg>
+</div>
+
+<script is:inline>
+  document.querySelector(".hamburger").addEventListener("click", () => {
+    document.querySelector(".nav-links").classList.toggle("expanded");
+  });
+</script>
