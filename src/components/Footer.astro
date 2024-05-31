@@ -1,0 +1,36 @@
+---
+import SocialMediaButton from "@components/SocialMediaButton.astro";
+import ScrollToTopButton from "./ScrollToTopButton.astro";
+import XIcon from "@assets/XIcon.astro";
+import GithubIcon from "@assets/GithubIcon.astro";
+import InstagramIcon from "@assets/InstagramIcon.astro";
+---
+
+<footer class="h-40 flex justify-center flex-col bg-surface w-full relative">
+  <hr
+    class="h-px w-full border-2 border-dashed bg-transparent border-surface-container-highest"
+  />
+  <section
+    class="max-w-md m-auto gap-4 w-full flex justify-center mb-0 pb-4 text-outline"
+  >
+    <SocialMediaButton platform="x" username="jsimondev">
+      <XIcon/>
+    </SocialMediaButton>
+
+    <SocialMediaButton platform="github" username="jsimondev">
+      <GithubIcon/>
+    </SocialMediaButton>
+
+    <SocialMediaButton platform="instagram" username="__jsimon__">
+      <InstagramIcon/>
+    </SocialMediaButton>
+
+    <ScrollToTopButton />
+  </section>
+
+  <section>
+    <p class="text-on-surface-variant text-center text-xs">
+      © 2024 jsimondev. All rights reserved.
+    </p>
+  </section>
+</footer>
