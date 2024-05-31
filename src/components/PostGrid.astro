@@ -1,0 +1,62 @@
+---
+import Card from "@components/Card.astro";
+import getSortedPosts from "@utils/getSortedPosts";
+import { getCollection } from "astro:content";
+
+const { posts } = Astro.props;
+const allPosts = await getCollection("blog");
+
+const sortedPosts = getSortedPosts(allPosts);
+const colors = [
+  "bg-purple-800",
+  "bg-blue-800",
+  "bg-orange-800",
+  "bg-indigo-800",
+  "bg-green-800",
+  "bg-red-800",
+  "bg-orange-800",
+  "bg-yellow-800",
+  "bg-pink-800",
+  "bg-gray-800",
+  "bg-teal-800",
+  "bg-purple-800",
+  "bg-blue-800",
+  "bg-green-800",
+  "bg-red-800",
+  "bg-yellow-800",
+  "bg-indigo-800",
+  "bg-pink-800",
+  "bg-gray-800",
+  "bg-teal-800",
+];
+---
+
+<main class="bg-white px-5 md:px-8">
+  <section
+    class="grid grid-cols-1 py-12 md:py-28 md:grid-cols-2 lg:grid-cols-3 gap-8"
+  >
+    {
+      posts !== undefined && posts !== null && posts.length > 0
+        ? posts.map((post: any, index) => (
+            <Card
+              title={post.data.title}
+              date={post.data.pubDate}
+              url={`/posts/${post.slug}`}
+              color={post.data.color ?? colors[index % colors.length]}
+              description={post.data.description}
+              tag={post.data.tags[0]}
+            />
+          ))
+        : sortedPosts.map((post: any, index) => (
+            <Card
+              title={post.data.title}
+              date={post.data.pubDate}
+              url={`/posts/${post.slug}`}
+              color={post.data.color ?? colors[index % colors.length]}
+              description={post.data.description}
+              tag={post.data.tags[0]}
+            />
+          ))
+    }
+  </section>
+</main>
