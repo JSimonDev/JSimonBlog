@@ -1,16 +1,12 @@
 ---
+import Hero from "@components/Hero.astro";
+import PostGrid from "@components/PostGrid.astro";
+import Layout from "@layouts/Layout.astro";
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>JSimon Blog</title>
-	</head>
-	<body>
-		<h1>JSimon Blog</h1>
-	</body>
-</html>
+<Layout>
+  <Hero slot="hero" title="Bienvenido a mi Blog"/>
+
+  <PostGrid />
+</Layout>
