@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@font-face {
+  font-display: swap;
+  font-family: "din-next-rounded";
+  font-weight: 500;
+  src: url(..//fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2"),
+    url(../fonts/DINNextRoundedLTPro-Regular.woff) format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "din-next-rounded";
+  font-weight: 700;
+  src: url(../fonts/DINNextRoundedLTPro-Bold.woff2) format("woff2"),
+    url(../fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+}
+
+::selection {
+  background: #fbb03b;
+  color: white;
+}
+
+::-moz-selection {
+  background: #fbb03b;
+  color: white;
+}
+
+::-webkit-selection {
+  background: #fbb03b;
+  color: white;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --purple-color: #6825c6;
+  --background-light: #bfceff;
+  --background-dark: #6825c6;
+  --text-light: #ffffff;
+  --text-dark: #2c3e50;
+  --font-family: "din-next-rounded", sans-serif;
+  --primary-color: #6825c6;
+  --secondary-color: #fbb03b;
+  --tertiary-color: #c71585;
+  --text-color: #777777;
+  --text-title-color: #4b4b4b;
+  --font-family: "din-next-rounded", sans-serif;
+  --card-background-color: #e8f5e9;
+  --card-border-color: #aed581;
+  --card-text-color: #4caf50;
+  --surface: #fdf7ff;
+  --surface-container-low: #f8f2fa;
+  --surface-container: #f2ecf4;
+  --surface-container-high: #ece6ee;
+  --surface-container-highest: #e6e0e9;
+  --on-surface: #1d1b20;
+  --on-surface-variant: #49454e;
+  --outline: #7a757f;
+}
+
+html {
+  font-family: var(--font-family);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+  font-weight: bold;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #4b4b4b;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #4b4b4b;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: #4b4b4b;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: #4b4b4b;
+}
+
+h6 {
+  font-size: 1rem;
+  color: #4b4b4b;
+}
+
+p {
+  margin: 1rem 0;
+  color: #777777;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* estilos de la barra de navegación*/
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger .hamburger-icon {
+  display: block;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  color: inherit;
+}
+
+.logo-name-span {
+  font-family: "Special Elite", sans-serif;
+}
+
+.logo-blog-span {
+  font-family: "Special Elite", sans-serif;
+}
+
+.logo a {
+  color: var(--text-light);
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links {
+  gap: 1rem;
+  width: 100%;
+  display: none;
+  margin: 0;
+}
+
+.nav-links a {
+  color: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  transform: scale(1.05);
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #fbb03b;
+  bottom: 0;
+  left: 0;
+  transition: width 0.2s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.expanded {
+  display: unset;
+}
+
+@media screen and (min-width: 636px) {
+  .nav-links {
+    display: flex;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+/* Forms */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
