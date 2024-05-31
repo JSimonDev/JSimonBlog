@@ -1,0 +1,45 @@
+---
+import CalendarIcon from "@assets/CalendarIcon.astro";
+
+interface Props {
+  url: string;
+  color: string;
+  date: string;
+  title: string;
+  description: string;
+  tag: string;
+}
+
+const { url, color, date, title, description, tag } : Props = Astro.props;
+---
+
+<a
+  href=`${url}`
+  class={`${color}  w-auto h- rounded-3xl hover:no-underline text-white py-6 px-6 transform transition-all duration-150 ease-in-out hover:rounded-custom`}
+>
+  <div class="flex justify-between items-center">
+    <div class="flex justify-center items-center text-stone-300 gap-1">
+      <CalendarIcon/>
+      <relative-time
+        class="text-transform: uppercase font-semibold text-xs text-stone-300"
+        format="datetime"
+        datetime={date}
+        format-style="short"
+        year="numeric"></relative-time>
+    </div>
+    <div
+      class="bg-white bg-opacity-20 rounded-lg h-auto backdrop-filter backdrop-blur-lg"
+    >
+      <p
+        class="text-stone-300 font-extrabold px-2 py-1 text-xs m-auto text-transform: uppercase"
+      >
+        {tag ?? "sin tag"}
+      </p>
+    </div>
+  </div>
+
+  <h2 class="text-white font-extrabold">{title}</h2>
+  <p class="text-white">
+    {description.length > 200 ? `${description.slice(0, 200)}...` : description}
+  </p>
+</a>
