@@ -16,6 +16,7 @@
       "@styles/*":     ["styles/*"],
       "@utils/*":      ["utils/*"],
       "@scripts/*":    ["scripts/*"],
+      "@i18n/*":       ["i18n/*"],
     },
   }
 }
