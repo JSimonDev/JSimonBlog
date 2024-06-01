@@ -1,0 +1,70 @@
+---
+import Hero from "@components/Hero.astro";
+import Layout from "@layouts/Layout.astro";
+import ContentBodyLayout from "@layouts/ContentBodyLayout.astro";
+
+const identity = {
+  firstName: "Jonathan Simon",
+  country: "Dominican Republic",
+  occupation: "Software Developer",
+  hobbies: ["photography", "reading", "music"],
+};
+
+const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Flutter",
+  "Astro",
+  "Document Writing",
+];
+
+const happy = true;
+const finished = true;
+const goal = 3;
+---
+
+<Layout>
+  <Hero title={"About Me"} />
+  <ContentBodyLayout>
+    <h2>... And My New Astro Site!</h2>
+
+    <p>
+      I am working on the introductory Astro tutorial. This is the second page of my website, and it's the first one I have built myself!
+    </p>
+
+    <p>
+      This site will be updated as I complete more parts of the tutorial, so be sure to visit it to see how my journey is going!
+    </p>
+
+    <p>Here are some facts about me:</p>
+    <ul>
+      <li>My name is {identity.firstName}.</li>
+      <li>I live in {identity.country} and work as a {identity.occupation}.</li>
+      {
+        identity.hobbies.length >= 2 && (
+          <li>
+            Two of my hobbies are: {identity.hobbies[0]} and{" "}
+            {identity.hobbies[1]}
+          </li>
+        )
+      }
+    </ul>
+    <p>My skills are:</p>
+    <ul>
+      {skills.map((skill) => <li class="skill">{skill}</li>)}
+    </ul>
+
+    {happy && <p>I'm happy to learn Astro!</p>}
+
+    {finished && <p>I have finished this tutorial!</p>}
+
+    {
+      goal === 3 ? (
+        <p>My goal is to finish in 3 days.</p>
+      ) : (
+        <p>My goal is not 3 days.</p>
+      )
+    }
+  </ContentBodyLayout>
+</Layout>
