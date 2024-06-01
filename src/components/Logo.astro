@@ -1,5 +1,9 @@
+---
+import { getLangFromUrl } from "@i18n/utils";
 
+const lang = getLangFromUrl(Astro.url);
+---
 
 <div class="logo">
-  <a class="whitespace-nowrap inline-block" href="/"><span class="logo-name-span">jsimon</span> <span class="logo-blog-span">blog</span></a>
+  <a class="whitespace-nowrap inline-block" href={lang === 'es' ? '/' : `/${lang}/`}><span class="logo-name-span">jsimon</span> <span class="logo-blog-span">blog</span></a>
 </div>
