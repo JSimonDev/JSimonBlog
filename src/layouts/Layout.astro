@@ -35,10 +35,7 @@ const socialImageURL = new URL(
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<html
-  lang=`${lang}`
-  class={`${scrollSmooth && "scroll-smooth"}`}
->
+<html lang=`${lang}` class={`${scrollSmooth && "scroll-smooth"}`}>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -94,13 +91,17 @@ const lang = getLangFromUrl(Astro.url);
 
     <meta name="theme-color" content="" />
   </head>
-  <body class="m-0 p-0 overflow-x-hidden touch-pan-y">
-    <Header />
-    <slot name="hero" />
+  <body id="home-template" class="home-template">
+    <div
+      class="site-wrapper flex flex-col min-h-screen bg-white m-0 p-0 overflow-x-hidden touch-pan-y"
+    >
+      <Header />
+      <slot name="hero" />
 
-    <slot />
+      <slot />
 
-    <Footer />
+      <Footer />
+    </div>
 
     <script src="@scripts/relative-time.js"></script>
     <script src="@scripts/scroll-to-top.js"></script>
