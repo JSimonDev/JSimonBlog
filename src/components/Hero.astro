@@ -8,7 +8,7 @@ const { title, color }: Props = Astro.props;
 ---
 
 <main
-  class=`flex flex-col ${color ?? "bg-primary"} text-white justify-center items-center w-full text-center mx-auto h-[50svh] lg:h-[50vh] xl:h-[95vh]`
+  class=`flex flex-col ${color ?? "bg-primary"} text-white  justify-center items-center w-full text-center mx-auto h-[60svh] md:h-[80svh] lg:h-[80vh] xl:h-[95vh]`
 >
   <slot name="date" />
   <h1 class="text-3xl md:text-5xl w-5/6">{title ?? "Titulo Principal"}</h1>
