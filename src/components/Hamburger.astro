@@ -2,37 +2,30 @@
 
 ---
 
-<div class="hamburger">
-  <svg
-    class="hamburger-icon"
-    width="30"
-    height="30"
-    fill="none"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M4 5L20 5"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"></path>
-    <path
-      d="M4 12L20 12"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"></path>
-    <path
-      d="M4 19L20 19"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"></path>
-  </svg>
-</div>
+<a role="button" class="hamburger" id="hamburger">
+  <span class="hamburger-bar"></span>
+  <span class="hamburger-bar"></span>
+  <span class="hamburger-bar"></span>
+</a>
 
 <script is:inline>
-  document.querySelector(".hamburger").addEventListener("click", () => {
-    document.querySelector(".nav-links").classList.toggle("expanded");
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerMenu = document.getElementById("hamburger");
+    const body = document.getElementById("home-template");
+    const menu = document.getElementById("menu");
+
+    hamburgerMenu.addEventListener("click", function () {
+      if (body.classList.contains("mobile-menu-open")) {
+        body.classList.remove("mobile-menu-open");
+      } else {
+        body.classList.add("mobile-menu-open");
+      }
+
+      if (hamburgerMenu.classList.contains("active")) {
+        hamburgerMenu.classList.remove("active");
+      } else {
+        hamburgerMenu.classList.add("active");
+      }
+    });
   });
 </script>
