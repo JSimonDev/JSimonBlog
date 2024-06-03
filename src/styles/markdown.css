@@ -28,7 +28,7 @@
 
 article {
   margin: auto;
-  padding: 4rem 1.9rem ;
+  padding: 4rem 1.9rem;
 }
 
 h2,
@@ -48,7 +48,8 @@ p:not(:first-child) && p:not(.rule) {
   margin-top: 2.3rem;
 }
 
-p, li {
+p,
+li {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.15rem;
@@ -61,7 +62,6 @@ a {
   color: var(--text-color);
   text-decoration: underline;
 }
-
 
 h1 {
   font-size: 2.8rem;
@@ -110,7 +110,7 @@ pre {
 .card {
   background-color: var(--card-background-color);
   border-left: 5px solid var(--card-border-color);
-  padding: 21px 28px; 
+  padding: 21px 28px;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
@@ -129,13 +129,21 @@ pre {
   font-size: 16px;
 }
 
+.site-header .menu .nav a {
+  color: #4b4b4b;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 @media (width <= 636px) {
   article {
     margin: auto;
     padding: 1rem 1.25rem 2rem;
   }
 
-  p, li, strong {
+  p,
+  li,
+  strong {
     font-size: 1rem;
   }
 
@@ -160,13 +168,15 @@ pre {
   }
 }
 
-@media ( 636px <= width <= 768px) {
+@media (636px <= width <= 768px) {
   article {
     margin: auto;
     padding: 2rem 1.9rem 3rem;
   }
 
-  p, li, strong {
+  p,
+  li,
+  strong {
     font-size: 1rem;
   }
 
@@ -188,5 +198,68 @@ pre {
 
   h6 {
     font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    overflow: visible;
+    padding: 30px 32px;
+    height: auto;
+  }
+
+  .site-header .hamburger {
+    display: none;
+  }
+
+  .site-header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .site-header .menu {
+    display: flex;
+  }
+
+  .site-header .menu .nav {
+    margin-top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .site-header .menu .nav li {
+    padding: 0;
+  }
+
+  .site-header .menu .nav a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    transition: transform 0.2s;
+    position: relative;
+    display: inline-block;
+  }
+
+  .site-header .menu .nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fbb03b;
+    bottom: 5px;
+    left: 0;
+    transition: width 0.2s;
+  }
+
+  .site-header .menu a:hover::after {
+    width: 100%;
+  }
+
+  .site-header .menu .nav a:hover,
+  .site-header .menu .nav a:focus {
+    transform: scale(1.05);
   }
 }
