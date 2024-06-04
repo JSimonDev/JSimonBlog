@@ -341,7 +341,7 @@ textarea:focus {
   .site-header .menu .nav a {
     font-size: 1.1rem;
     font-weight: 600;
-    color: inherit;
+    color: white;
     transition: transform 0.2s;
     position: relative;
     display: inline-block;
