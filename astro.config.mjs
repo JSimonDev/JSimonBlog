@@ -9,7 +9,16 @@ import vercel from '@astrojs/vercel/static';
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  integrations: [preact(), tailwind(), mdx(), sitemap()],
+  integrations: [preact(), tailwind(), mdx(), sitemap({
+    i18n: {
+      defaultLocale: "es",
+      locales: {
+        es: 'es-ES',
+        en: 'en-US',
+        zh: 'zh-CN'
+      },
+    },
+  })],
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"]
