@@ -44,9 +44,9 @@ h6 {
   letter-spacing: -0.025rem;
 }
 
-p:not(:first-child) && p:not(.rule) {
+p:not(:first-child) {
   margin-top: 2.3rem;
-}
+}	
 
 p,
 li {
@@ -56,6 +56,13 @@ li {
   color: var(--text-color);
   line-height: 1.7;
   letter-spacing: -0.018rem;
+}
+
+li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 1rem;
 }
 
 a {
@@ -124,7 +131,7 @@ pre {
 }
 
 .text {
-  margin: 0;
+  margin: 0 !important;
   color: var(--card-text-color);
   font-size: 16px;
 }
