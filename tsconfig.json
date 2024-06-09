@@ -8,6 +8,7 @@
     "baseUrl": "src",
     "paths": {
       "@assets/*":     ["assets/*"],
+      "@fonts/*":      ["fonts/*"],
       "@config":       ["config.ts"],
       "@components/*": ["components/*"],
       "@posts/*":      ["pages/posts/*"],
