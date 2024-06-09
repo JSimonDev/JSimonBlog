@@ -3,8 +3,8 @@ import { SITE } from "./src/config";
 import preact from "@astrojs/preact";
 import mdx from '@astrojs/mdx';
 import tailwind from "@astrojs/tailwind";
-
 import sitemap from "@astrojs/sitemap";
+import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,6 +21,10 @@ export default defineConfig({
     locales: ["en", "es", "zh"],
     routing: {
       prefixDefaultLocale: false,
-  }
-  }
+    }
+  },
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true }
+  }),
 });
