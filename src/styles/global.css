@@ -3,7 +3,7 @@
   font-display: swap;
   font-family: "din-next-rounded";
   font-weight: 500;
-  src: url(..//fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2"),
+  src: url(../fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2"),
     url(../fonts/DINNextRoundedLTPro-Regular.woff) format("woff");
 }
 @font-face {
