@@ -4,7 +4,7 @@ import preact from "@astrojs/preact";
 import mdx from '@astrojs/mdx';
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import vercel from '@astrojs/vercel/serverless';
+import vercel from '@astrojs/vercel/static';
 
 export default defineConfig({
   site: SITE.website,
@@ -22,7 +22,6 @@ export default defineConfig({
       prefixDefaultLocale: false,
     }
   },
-  output: 'server',
   adapter:  vercel({
     webAnalytics: { enabled: true }
   }),
