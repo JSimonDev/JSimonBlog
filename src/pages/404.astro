@@ -1,8 +1,5 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import LinkButton from "@components/BlogPost.astro";
 ---
 
 <Layout title={`404 Not Found`}>
@@ -12,12 +9,12 @@ import LinkButton from "@components/BlogPost.astro";
       <h1 aria-label="404 Not Found">404</h1>
       <span aria-hidden="true">¯\_(ツ)_/¯</span>
       <p>Page Not Found</p>
-      <LinkButton
+      <a
         href="/"
-        className="my-6 text-lg underline decoration-dashed underline-offset-8"
+        class="my-6 text-lg underline decoration-dashed underline-offset-8"
       >
         Go back home
-      </LinkButton>
+      </a>
     </div>
   </main>
 
