@@ -116,10 +116,10 @@ p {
   line-height: 1.7;
 }
 
-a {
+/* a {
   color: var(--primary-color);
   text-decoration: none;
-}
+} */
 
 a:hover,
 a:focus {

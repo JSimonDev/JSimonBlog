@@ -66,8 +66,8 @@ li {
 }
 
 a {
-  color: var(--text-color) !important;
-  text-decoration: underline !important;
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 h1 {
