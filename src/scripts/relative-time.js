@@ -1,2 +1,5 @@
 import { RelativeTimeElement } from '@github/relative-time-element';
-customElements.define('relative-time', RelativeTimeElement);
+
+if (!customElements.get('relative-time')) {
+  customElements.define('relative-time', RelativeTimeElement);
+}
