@@ -8,15 +8,19 @@ const { title, color }: Props = Astro.props;
 ---
 
 <header
-  class=`post-header flex justify-center ${color ?? "bg-primary"}  text-white w-full text-center mx-auto px-[20px] py-[140px] lg:pt-[180px] lg:px[20px] lg:pb-[160px] xl:h-[95dvh]`
+  class=`post-header flex justify-center ${color ?? "bg-primary"}  text-white w-full text-center mx-auto px-[10px] py-[100px] md:px-[20px] md:py-[140px] md:lg:pt-[180px] lg:px[20px] lg:pb-[160px] xl:h-[95dvh]`
 >
-<div class="post-header-content flex flex-col items-center max-w-[700px] m-auto">
-  <slot name="date" />
-  <h1 class="text-3xl leading-snug text-white md:text-[2.7rem] w-5/6 mt-4">{title}</h1>
-  <slot name="title" />
+  <div
+    class="post-header-content flex flex-col items-center max-w-[700px] m-auto"
+  >
+    <slot name="date" />
+    <h1 class="text-3xl leading-snug w-full text-white md:text-[2.7rem] mt-4">
+      {title}
+    </h1>
+    <slot name="title" />
 
-  <slot name="description" />
-  <slot name="author" />
-  <slot />
-</div>
-</he>
+    <slot name="description" />
+    <slot name="author" />
+    <slot />
+  </div>
+</header>
