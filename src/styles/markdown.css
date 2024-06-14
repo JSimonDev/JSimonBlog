@@ -37,7 +37,7 @@ h4,
 h5,
 h6 {
   margin-top: 2.8rem;
-  margin-bottom: 1.6rem;
+  /* margin-bottom: 1.6rem; */
   line-height: 2rem;
   font-weight: 700;
   color: var(--text-title-color);
@@ -46,7 +46,7 @@ h6 {
 
 p:not(:first-child) {
   margin-top: 2.3rem;
-}	
+}
 
 p,
 li {
@@ -148,10 +148,23 @@ pre {
     padding: 1rem 1.25rem 2rem;
   }
 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1.5em 0 .875em;
+  }
+
+  p:not(:first-child) {
+    margin: 0;
+  }
+
   p,
   li,
   strong {
     font-size: 1rem;
+    margin: 0;
   }
 
   h2 {
