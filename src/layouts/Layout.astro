@@ -43,8 +43,10 @@ const lang = getLangFromUrl(Astro.url);
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src https://*; child-src 'none';"
+    />
 
     <!-- General Meta Tags -->
     <title>{title}</title>
@@ -90,14 +92,7 @@ const lang = getLangFromUrl(Astro.url);
     <link
       href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
       rel="stylesheet"
-      media="print" onload="this.media='all'"
     />
-    <noscript>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>
 
     <meta name="theme-color" content="" />
   </head>
