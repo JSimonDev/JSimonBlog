@@ -8,13 +8,25 @@ const t = useTranslations(lang);
 
 <div class="menu" id="menu">
   <ul class="nav">
-    <li><a href={getRelativeLocaleUrl(lang, "/")}>{t("nav.inicio")}</a></li>
-    <li><a href={getRelativeLocaleUrl(lang, "blog")}>{t("nav.blog")}</a></li>
     <li>
-      <a href={getRelativeLocaleUrl(lang, "tags")}>{t("nav.etiquetas")}</a>
+      <a aria-label={t("nav.inicio")} href={getRelativeLocaleUrl(lang, "/")}
+        >{t("nav.inicio")}</a>
     </li>
     <li>
-      <a href={getRelativeLocaleUrl(lang, "about")}>{t("nav.sobre-mi")}</a>
+      <a aria-label={t("nav.blog")} href={getRelativeLocaleUrl(lang, "blog")}
+        >{t("nav.blog")}</a>
+    </li>
+    <li>
+      <a
+        aria-label={t("nav.etiquetas")}
+        href={getRelativeLocaleUrl(lang, "tags")}>{t("nav.etiquetas")}</a
+      >
+    </li>
+    <li>
+      <a
+        aria-label={t("nav.sobre-mi")}
+        href={getRelativeLocaleUrl(lang, "about")}>{t("nav.sobre-mi")}</a
+      >
     </li>
   </ul>
 </div>

@@ -20,7 +20,9 @@ const pageTitle = "Tag Index";
       {
         tags.map((tag) => (
           <p class="tag">
-            <a href={`${tag}`}>{tag}</a>
+            <a 
+            aria-label={`Etiqueta: ${tag}`}
+            href={`${tag}`}>{tag}</a>
           </p>
         ))
       }

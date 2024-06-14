@@ -15,6 +15,7 @@ const { url, color, date, title, description, tag }: Props = Astro.props;
 ---
 
 <a
+  aria-label=`Post: ${title}`
   href=`${url}`
   class={`${color}  w-full h-full relative rounded-3xl hover:no-underline focus:no-underline text-white py-6 px-6 transform transition-all duration-150 ease-in-out hover:rounded-custom`}
 >

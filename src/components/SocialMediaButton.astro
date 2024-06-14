@@ -1,6 +1,8 @@
 ---
 const { platform, username } = Astro.props;
 ---
-<a class="px-2 py-2 rounded-s-lg rounded-ee-lg transform transition-all hover:bg-surface-container hover:scale-105 no-underline hover:no-underline text-inherit" target="_blank" href={`https://www.${platform}.com/${username}`} aria-label={`Perfil de ${username} en ${platform}`}>
+<a 
+aria-label={`Perfil de ${username} en ${platform}`}
+class="px-2 py-2 rounded-s-lg rounded-ee-lg transform transition-all hover:bg-surface-container hover:scale-105 no-underline hover:no-underline text-inherit" target="_blank" href={`https://www.${platform}.com/${username}`} aria-label={`Perfil de ${username} en ${platform}`}>
 <slot/>
 </a>
