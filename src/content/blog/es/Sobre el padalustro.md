@@ -1,10 +1,10 @@
 ---
 title: "Sobre el siniestro padalustro"
-color: "bg-slate-800"
+color: "bg-orange-800"
 author: "Jonathan Simon"
 description: "Una exploración detallada del misterioso término 'padalustro'"
 pubDate: 2024-06-01
-tags: ["padalustro", "bloguear", "aprender en público", "éxitos"]
+tags: ["padalustro"]
 ---
 
 ## Introducción
