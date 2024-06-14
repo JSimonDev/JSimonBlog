@@ -2,16 +2,21 @@
 @font-face {
   font-display: swap;
   font-family: "din-next-rounded";
-  font-weight: 500;
-  src: url(../fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2"),
-    url(../fonts/DINNextRoundedLTPro-Regular.woff) format("woff");
+  font-weight: 400;
+  src: url(../fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2");
 }
 @font-face {
   font-display: swap;
   font-family: "din-next-rounded";
   font-weight: 700;
-  src: url(../fonts/DINNextRoundedLTPro-Bold.woff2) format("woff2"),
-    url(../fonts/DINNextRoundedLTPro-Bold.woff) format("woff");
+  src: url(../fonts/DINNextRoundedLTPro-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-display: auto;
+  font-family: "Special Elite";
+  font-weight: 400;
+  src: url(../fonts/SpecialElite-Regular.woff2) format("woff2"),
+    url(../fonts/SpecialElite-Regular.woff) format("woff");
 }
 
 ::selection {
@@ -44,6 +49,7 @@
   --text-color: #777777;
   --text-title-color: #4b4b4b;
   --font-family: "din-next-rounded", sans-serif;
+  --special-font: "Special Elite", sans-serif;
   --card-background-color: #e8f5e9;
   --card-border-color: #aed581;
   --card-text-color: #4caf50;
@@ -104,11 +110,11 @@ a:focus {
 }
 
 .logo-name-span {
-  font-family: "Special Elite", sans-serif;
+  font-family: var(--special-font);
 }
 
 .logo-blog-span {
-  font-family: "Special Elite", sans-serif;
+  font-family: var(--special-font);
 }
 
 .logo a {
