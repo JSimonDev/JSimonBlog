@@ -157,7 +157,7 @@ pre {
   }
 
   p:not(:first-child) {
-    margin: 0;
+    margin-top: 1rem;
   }
 
   p,
@@ -192,6 +192,10 @@ pre {
   article {
     margin: auto;
     padding: 2rem 1.9rem 3rem;
+  }
+
+  p:not(:first-child) {
+    margin-top: 1.8rem;
   }
 
   p,
