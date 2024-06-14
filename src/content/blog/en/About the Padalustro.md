@@ -4,7 +4,7 @@ color: "bg-slate-800"
 author: "Jonathan Simon"
 description: "A detailed exploration of the mysterious term 'padalustro'"
 pubDate: 2024-06-01
-tags: ["padalustro", "blogging", "learning in public", "successes"]
+tags: ["padalustro"]
 ---
 
 ## Introduction
