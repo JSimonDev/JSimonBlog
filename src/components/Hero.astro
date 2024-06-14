@@ -7,14 +7,16 @@ interface Props {
 const { title, color }: Props = Astro.props;
 ---
 
-<main
-  class=`flex flex-col ${color ?? "bg-primary"} text-white  justify-center items-center w-full text-center mx-auto h-[60svh] md:h-[80svh] lg:h-[80vh] xl:h-[95vh]`
+<header
+  class=`post-header flex justify-center ${color ?? "bg-primary"}  text-white w-full text-center mx-auto px-[20px] py-[140px] lg:pt-[180px] lg:px[20px] lg:pb-[160px] xl:h-[95dvh]`
 >
+<div class="post-header-content flex flex-col items-center max-w-[700px] m-auto">
   <slot name="date" />
-  <h1 class="text-3xl text-white md:text-5xl w-5/6">{title}</h1>
+  <h1 class="text-3xl leading-snug text-white md:text-[2.7rem] w-5/6 mt-4">{title}</h1>
   <slot name="title" />
 
   <slot name="description" />
   <slot name="author" />
   <slot />
-</main>
+</div>
+</he>
