@@ -168,23 +168,23 @@ pre {
   }
 
   h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
     font-size: 1.3rem;
   }
 
-  h4 {
+  h3 {
     font-size: 1.2rem;
   }
 
-  h5 {
+  h4 {
     font-size: 1.1rem;
   }
 
+  h5 {
+    font-size: 1.0rem;
+  }
+
   h6 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
