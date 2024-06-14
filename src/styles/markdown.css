@@ -142,7 +142,7 @@ pre {
   font-weight: 700;
 }
 
-@media (width <= 636px) {
+@media (width < 636px) {
   article {
     margin: auto;
     padding: 1rem 1.25rem 2rem;
@@ -188,7 +188,7 @@ pre {
   }
 }
 
-@media (636px <= width <= 768px) {
+@media (636px <= width < 768px) {
   article {
     margin: auto;
     padding: 2rem 1.9rem 3rem;
@@ -201,7 +201,7 @@ pre {
   }
 
   h2 {
-    font-size: 0.5rem;
+    font-size: 1.9rem;
   }
 
   h3 {
@@ -221,7 +221,7 @@ pre {
   }
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .site-header {
     overflow: visible;
     padding: 30px 32px;
