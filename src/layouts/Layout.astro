@@ -43,11 +43,6 @@ const lang = getLangFromUrl(Astro.url);
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src https://*; child-src 'none';"
-    />
-
     <!-- General Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
