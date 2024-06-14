@@ -1,5 +1,6 @@
 ---
 import CalendarIcon from "@assets/CalendarIcon.astro";
+import TagIcon from "assets/TagIcon.astro";
 
 interface Props {
   url: string;
@@ -10,7 +11,7 @@ interface Props {
   tag: string;
 }
 
-const { url, color, date, title, description, tag } : Props = Astro.props;
+const { url, color, date, title, description, tag }: Props = Astro.props;
 ---
 
 <a
@@ -18,20 +19,21 @@ const { url, color, date, title, description, tag } : Props = Astro.props;
   class={`${color}  w-full h-full relative rounded-3xl hover:no-underline focus:no-underline text-white py-6 px-6 transform transition-all duration-150 ease-in-out hover:rounded-custom`}
 >
   <div class="flex justify-between items-center">
-    <div class="flex justify-center items-center text-stone-300 gap-1">
-      <CalendarIcon/>
+    <div class="flex justify-center items-center text-stone-200 gap-1">
+      <CalendarIcon />
       <relative-time
-        class="text-transform: uppercase font-semibold text-xs text-stone-300"
+        class="text-transform: uppercase font-semibold text-xs"
         format="datetime"
         datetime={date}
         format-style="short"
         year="numeric"></relative-time>
     </div>
     <div
-      class="bg-white bg-opacity-20 rounded-lg h-auto backdrop-filter backdrop-blur-lg"
+      class="bg-white text-stone-200 bg-opacity-20 rounded-lg h-auto backdrop-filter backdrop-blur-lg flex justify-center items-center p-1"
     >
+      <TagIcon />
       <p
-        class="text-stone-300 font-extrabold px-2 py-1 text-xs m-auto text-transform: uppercase"
+        class="text-stone-200 font-extrabold px-2 py-1 text-xs m-auto text-transform: uppercase"
       >
         {tag ?? "sin tag"}
       </p>
