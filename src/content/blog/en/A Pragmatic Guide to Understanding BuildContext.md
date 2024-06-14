@@ -9,7 +9,7 @@ author: "Jonathan Simon"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The full Astro logo."
-tags: ["astro", "blogging", "learning in public"]
+tags: ["flutter", "app development", "widgets"]
 ---
 
 In this article, we will explore the `BuildContext` in Flutter in depth, an essential concept for any developer aiming to create robust and efficient applications. Learn how to use it, its common uses, and best practices to avoid errors and improve your code.
