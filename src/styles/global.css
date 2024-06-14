@@ -81,35 +81,6 @@ h6 {
   color: inherit;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #4b4b4b;
-}
-
-h3 {
-  font-size: 1.75rem;
-  color: #4b4b4b;
-}
-
-h4 {
-  font-size: 1.5rem;
-  color: #4b4b4b;
-}
-
-h5 {
-  font-size: 1.25rem;
-  color: #4b4b4b;
-}
-
-h6 {
-  font-size: 1rem;
-  color: #4b4b4b;
-}
-
 p {
   margin: 1rem 0;
   color: #777777;
@@ -306,6 +277,35 @@ textarea:focus {
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #4b4b4b;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    color: #4b4b4b;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    color: #4b4b4b;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+    color: #4b4b4b;
+  }
+
+  h6 {
+    font-size: 1rem;
+    color: #4b4b4b;
+  }
+
   .site-header {
     overflow: visible;
     padding: 30px 32px;
