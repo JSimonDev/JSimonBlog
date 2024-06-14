@@ -40,7 +40,7 @@ const { url, color, date, title, description, tag }: Props = Astro.props;
     </div>
   </div>
 
-  <h2 class="text-white text-2xl md:text-3xl font-extrabold">{title}</h2>
+  <h2 class="text-white text-2xl md:text-3xl font-extrabold my-4">{title}</h2>
   <p class="text-white">
     {description.length > 200 ? `${description.slice(0, 200)}...` : description}
   </p>
