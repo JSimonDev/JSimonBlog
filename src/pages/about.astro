@@ -2,87 +2,70 @@
 import Hero from "@components/Hero.astro";
 import Layout from "@layouts/Layout.astro";
 import ContentBodyLayout from "@layouts/ContentBodyLayout.astro";
-import { Image } from 'astro:assets';
-import moonCollage from '../assets/images/moon-collage.png';
+import { Image } from "astro:assets";
+import moonCollage from "../assets/images/moon-collage.png";
 ---
 
 <Layout>
   <Hero title="Había una vez..." />
   <ContentBodyLayout>
     <p>
-      ¡Hola! Mi nombre es Jonathan Simon, soy un desarrollador de software 
-      apasionado por la tecnología, la física y la filosofía —en realidad, me 
-      llama la atención la ciencias y las humanidades por igual— así que aquí 
-      podrás encontrar un poco lo que pienso de cada una de estas ramas del saber y, 
-      por qué no, conocerme un poco también, para que sepas mejor de qué condiciones 
-      materiales salieron dichas ideas. Empezando por el inicio, nací en Las Tunas, Cuba, 
-      en 2002, donde viví poco tiempo porque a los dos años mis padres se fueron a vivir 
-      a La Habana —capital del país— donde realmente fue mi infacia.
+      ¡Hola! Soy Jonathan Simon, un desarrollador de software apasionado por la
+      tecnología, la física y la filosofía. En este espacio, comparto mis
+      reflexiones sobre estas disciplinas y, de paso, un poco de mi historia
+      personal.
     </p>
     <p>
-      Desde pequeño no tuve mucho contacto con la tecnología, de hecho, 
-      mi primer móvil lo tuve a los 15 años, en 2017 y fue un Samsung Galaxy J3 Prime,
-      así que todavía faltaba bastante para descubrir mi pasión por la tecnología.
-      para aquel entonces estaba fascinado con la física y la astronomía, y quería ser
-      físico, recuerdo tener cierta obsesión con mirar el cielo en la noche, me quedaba 
-      minutos mirando hacia la Luna, incluso llegué a decirle a mi madre que en lugar de un 
-      móvil quería un telescopio, algo que mi madre nunca me concedió, pero eso no me detuvo,
-      conseguí mirar un poco más cerca gracias a una vieja cámara que me prestó mi suegra,
-      y fue ahí cuando descubrí a la fotografía.
-    </p>
-    <Image src={moonCollage} alt="Fotos de la Luna" loading="lazy" decoding="async" width={moonCollage.width} height={moonCollage.height} />
-    <br>
-    <p>
-      Empecé a tomarle fotos a la Luna y a casi todo lo que se ponía delante, 
-      quedé fascinado con la idea de capturar momentos y guardarlos para siempre,
-      empecé a investigar sobre los tipos de lentes, composición, apertura, velocidad de
-      obturación, etc. Pensé que había encontrado lo que quería ser, fotógrafo,
-      pero una vez más, la vida me tenía preparado otro camino.
+      Nací en Las Tunas, Cuba, en 2002. Mi infancia transcurrió en La Habana, a
+      donde nos mudamos cuando tenía dos años. Sin mucho contacto con la
+      tecnología, mi primer móvil, un Samsung Galaxy J3 Prime, llegó a mis manos
+      a los 15 años, en 2017. En ese tiempo, mi fascinación era la física y la
+      astronomía. Soñaba con ser físico y pasaba horas observando la Luna,
+      deseando tener un telescopio. Mi madre no pudo cumplir ese deseo, pero una
+      vieja cámara prestada por mi suegra me permitió acercarme un poco más al
+      cielo y así nació mi interés por la fotografía.
     </p>
     <p>
-      Unos años después, en 2020, siendo ya mayor de edad y habiendo finalizado la formación 
-      preuniversitaria, con las pruebas de ingreso a la universidad aprobadadas, me tocó
-      entrar al Servicio Militar Activo (SMA).
-      El servicio militar en Cuba, es obligatorio para todos los hombres cubanos a partir de los 16 años. 
-      Este servicio dura dos años para los hombres que no van a continuar los estudios en la universidad,
-      de lo contrario se pasa un año y es voluntario para las mujeres. 
-      Los reclutas reciben entrenamiento militar básico y luego son asignados a diversas 
-      unidades donde realizan tareas relacionadas con la defensa nacional y otros servicios. 
-      El SMA forma parte del sistema de defensa del país y busca preparar a los ciudadanos 
-      para la defensa nacional, inculcando disciplina y habilidades militares.
+      Comencé a tomar fotos de la Luna y de todo lo que se cruzaba en mi camino,
+      cautivado por la idea de capturar momentos. Aprendí sobre lentes,
+      composición y técnicas fotográficas, creyendo que la fotografía sería mi
+      destino. Pero la vida tenía otros planes.
+    </p>
+    <Image
+      src={moonCollage}
+      alt="Fotos de la Luna"
+      loading="lazy"
+      decoding="async"
+      width={moonCollage.width}
+      height={moonCollage.height}
+    />
+    <p>
+      En 2020, tras terminar el preuniversitario y aprobar los exámenes de
+      ingreso a la universidad, me enfrenté al Servicio Militar Activo (SMA) en
+      Cuba, obligatorio para todos los hombres a partir de los 16 años. Esta
+      experiencia, una de las más difíciles de mi vida, me enseñó a valorar las
+      comodidades y a ver la vida de otra manera. Durante un año, estuve
+      separado de mi familia y pareja, viviendo en un cuartel con otros
+      reclutas, en condiciones bastante austeras.
     </p>
     <p>
-      Esta fue unas de las experiencias más duras de mi vida, en la que aprendí a valorar todas
-      comodidades que tenía en casa, y a apreciar la vida de una manera diferente, tuve que lidiar
-      con la separación de mi familia y pareja por todo un año, me trasladaron a una unidad militar, 
-      una vez allí nos dieron un uniforme que a muchos ni siquiera nos servía y 
-      luego nos enseñaron el cuartel donde dormiríamos, el lugar era solo un espacio amplio con alrededor 
-      de 15 a 20 literas y un baño común para todos, cuando logré averiguar donde estaba me dijeron que 
-      era una especie de escuela que habían tomado para alojar a los soldados y asegurarse de que ninguno 
-      tuviera COVID-19, nos asignaron una litera para cada uno las cuales estaban a más de un metro para 
-      evitar el contagio, todos los días nos tomaban la temperatura y con regularidad nos hacían pruebas de PCR,
-      para asegurarse de que no hubiera ningún caso positivo.
+      Tras varios días de cuarentena y pruebas de PCR por la pandemia de
+      COVID-19, finalmente nos trasladaron a una unidad militar. Allí, nos
+      asignaron literas y nos sometieron a un riguroso entrenamiento: marchas de
+      infantería, manejo y disparo de fusiles AKM, y técnicas de armamento.
+      Estas semanas de formación nos prepararon para nuestras futuras
+      asignaciones en diferentes unidades militares.
     </p>
+    <Image
+      src="https://images7.alphacoders.com/342/342144.jpg"
+      alt="imagen de una akm"
+      width="700"
+      height="500"
+    />
     <p>
-      Como a los 5 días después del PCR nos dieron el resultado y habian 3 casos positivos, luego de llevarse 
-      a los contagiados a un hospital, nos dejaron una semana más en cuarentena y repitieron la prueba para 
-      asegurarse de que no hubiera más casos, afortunadamente no hubo más casos y pudimos salir de la cuarentena,
-      fuimos traladados, ahora sí, a una unidad militar, donde nos ubicaron en un cuartel muy parecido al anterior
-      pero un poco mas pequeño donde si dormimos dos personas por litera y teniamos un estante para guardar nuestras
-      pertenencias. Al día siguiente nos dieron el de pie a las 6:00 am y nos llevaron a rapar a todos, yo traté de
-      evitarlo tratando de pasar desapercibido y en un primer momento lo logré, pero cuando nos formaron de nuevo 
-      se notaba que yo no me había rapado, así que me llevaron a rapar a mi solo.
+      Mi destino me llevó por un camino inesperado, pero cada experiencia ha
+      sido una lección valiosa que me ha moldeado. Aquí comparto mi viaje, mis
+      pasiones y mis aprendizajes.
     </p>
-    <p>
-      En el trayecto de las próximas dos semanas, nos enseñaron los pasos de infantería, luego de aprender como marchar
-      de forma coordinada y responder de forma correcta a los comandos, nos enseñaron a disparar con un fusil
-      AKM, armar el fusil y desarmarlo y por último nos enseñaron como llenar y vaciar de balas el cargador
-    </p>
-    <Image src='https://images7.alphacoders.com/342/342144.jpg' alt='imagen de una akm' width="700" height="500" />
-    <p>
-      Luego de esos 14 días de preparación nos dividieron en grupos y nos asignaron a diferentes unidades
-      militares, a mi me asignaron
-    </p>
-
   </ContentBodyLayout>
 </Layout>
