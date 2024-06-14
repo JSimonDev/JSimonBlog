@@ -16,11 +16,11 @@ const pageTitle = "Índice de etiquetas";
   <Hero slot="hero" title={pageTitle}/>
 
   <ContentBodyLayout>
-    <div class="flex flex-wrap justify-center gap-4 mt-4">
+    <div class="flex flex-wrap">
       {
         tags.map((tag) => (
-          <p class="px-3 py-1 rounded-full bg-blue-100 text-blue-500 text-sm font-semibold tracking-wide shadow-md">
-            <a href={`${tag}`}>{tag}</a>
+          <p class="m-1 border-solid border border-gray-400 rounded-lg px-4 py-2 text-lg bg-neutral-200">
+            <a class="text-stone-700 no-underline" href={`${tag}`}>{tag}</a>
           </p>
         ))
       }
