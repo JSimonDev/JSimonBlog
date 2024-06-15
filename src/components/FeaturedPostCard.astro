@@ -1,0 +1,56 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  color?: string;
+  url?: string;
+  date?: Date;
+}
+
+const { title, description, color, url, date }: Props = Astro.props;
+---
+
+<article slot="hero">
+  <div
+    class=` ${color ?? "bg-primary"} text-white w-full mx-auto px-[10px] py-[100px] md:px-[20px] md:py-[140px] md:lg:pt-[180px] lg:px[20px] lg:pb-[160px] xl:h-[95dvh]`
+  >
+    <!--* Card -->
+    <div class="flex flex-col justify-center items-baseline max-w-[50%] ml-16">
+      <!--* Date -->
+      <div>
+        <span class="text-transform: uppercase font-semibold text-xs"
+          >Destacado •</span
+        >
+        <relative-time
+          class="text-transform: uppercase font-semibold text-xs"
+          format="datetime"
+          datetime={date}
+          format-style="short"
+          year="numeric"
+        >
+        </relative-time>
+      </div>
+      <!--* Title -->
+      <h1 class="mt-4 text-white h">
+        <a
+          aria-label={title}
+          class="no-underline hover:no-underline focus:no-underline"
+          href={url}>{title}</a
+        >
+      </h1>
+      <!--* Description -->
+      <div class="mt-4">
+        <span>{description}</span>
+      </div>
+      <!--* Read More Button -->
+      <a
+        aria-label="Read More"
+        role="button"
+        href={url}
+        class="text-transform: uppercase font-bold mt-6 no-underline hover:no-underline focus:no-underline border-solid border-white border-opacity-50 border-2 p-3 rounded-lg"
+      >
+        Leer más
+      </a>
+    </div>
+  </div>
+</article>
