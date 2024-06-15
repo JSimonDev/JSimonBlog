@@ -1,10 +1,30 @@
 ---
-import Hero from "@components/Hero.astro";
+import FeaturedPostCard from "@components/FeaturedPostCard.astro";
 import PostGrid from "@components/PostGrid.astro";
 import Layout from "@layouts/Layout.astro";
+import featuredPosts from "../utils/featuredPost.ts";
+import { getCollection } from "astro:content";
+import { getLangFromUrl } from "@i18n/utils";
+import Hero from "@components/Hero.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const posts = await getCollection("blog", ({ data, id }) => !data.draft && id.startsWith(`${lang}/`));
+const fPosts = featuredPosts(posts);
+const post = fPosts[0];
+let props;
+
+if (fPosts.length > 0){
+  props = {
+    title: post.data.title,
+    description: post.data.description,
+    color: post.data.color,
+    url: `/posts/${post.slug}`,
+    date: post.data.pubDate,
+  }
+}
 ---
 
 <Layout>
-  <Hero slot="hero" title="Bienvenido a mi Blog"/>
+  {fPosts.length > 0 ? <FeaturedPostCard {...props} /> : <Hero slot="hero" title="Bienvenido a mi Blog"/>}
   <PostGrid />
 </Layout>
