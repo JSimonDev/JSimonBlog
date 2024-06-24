@@ -27,4 +27,4 @@ Trata de un trastorno [volitivo](https://es.wikipedia.org/wiki/Volitivo "Voliti
 
 ## ¿Por qué procrastinamos?
 
-Bien, ahora que ya sabemos a que nos referimos con _procrastinar_ es hora de preguntarnos: ¿Si ya se que es lo que tengo que hacer y como debo hacerlo por qué no lo empiezo? o ¿Por qué no termino ese proyecto que deje a medias hace una semana? qué es exactamente lo que me impide completar o llevar a cabo ciertas tareas.
+Bien, ahora que ya sabemos a que nos referimos con _procrastinar_ es hora de preguntarnos: ¿Si ya se que es lo que tengo que hacer y como debo hacerlo por qué no lo empiezo? o ¿Por qué no termino ese proyecto que deje a medias hace una semana? ¿Qué es exactamente lo que me impide completar o llevar a cabo ciertas tareas? Para responder a todas estas interrogantes debemos hacer un **análisis funcional de la conducta**, que es una técnica utilizada en la psicología conductual que busca comprender las causas y consecuencias de un comportamiento específico.
