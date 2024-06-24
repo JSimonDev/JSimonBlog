@@ -1,11 +1,15 @@
 ---
 title: "El origen y la evolución del «usted»: ¿Respeto o jerarquía?"
-color: "bg-blue-800"
+color: bg-blue-800
 featured: true
-author: "Jonathan Simon"  
-description: "Descubre la historia detrás del uso del «usted» y cómo su evolución ha influido en nuestras interacciones diarias y en las relaciones de poder."
+author: Jonathan Simon
+description: Descubre la historia detrás del uso del «usted» y cómo su evolución ha influido en nuestras interacciones diarias y en las relaciones de poder.
 pubDate: 2024-06-08
-tags: ["reflexión", "cultura", "historia", "lenguaje"]
+tags:
+  - reflexión
+  - cultura
+  - historia
+  - lenguaje
 ---
 
 ## Origen del «usted»

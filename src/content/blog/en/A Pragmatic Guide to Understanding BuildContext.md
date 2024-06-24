@@ -1,22 +1,23 @@
 ---
-title: "A Pragmatic Guide to Understanding BuildContext"
-lang: "en"
-color: "bg-emerald-800"
+title: A Pragmatic Guide to Understanding BuildContext
+lang: en
+color: bg-emerald-800
 featured: true
 pubDate: 2024-05-27
-description: "We will explore the `BuildContext` in Flutter in depth, an essential concept for any developer aiming to create robust and efficient applications."
-author: "Jonathan Simon"
-image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The full Astro logo."
-tags: ["flutter", "app development", "widgets"]
+description: We will explore the `BuildContext` in Flutter in depth, an essential concept for any developer aiming to create robust and efficient applications.
+author: Jonathan Simon
+tags:
+  - flutter
+  - app
+  - development
+  - widgets
 ---
 
 In this article, we will explore the `BuildContext` in Flutter in depth, an essential concept for any developer aiming to create robust and efficient applications. Learn how to use it, its common uses, and best practices to avoid errors and improve your code.
 
 ## Introduction
 
-If you've worked with Flutter, you've probably encountered the term `BuildContext`. Although it may seem complicated at first, `BuildContext` is one of the [fundamental pieces for understanding how widgets work in Flutter](""). This guide will provide you with a clear and practical view of what `BuildContext` is, how to use it, and why it is so important.
+If you've worked with Flutter, you've probably encountered the term `BuildContext`. Although it may seem complicated at first, `BuildContext` is one of the fundamental pieces for understanding how widgets work in Flutter. This guide will provide you with a clear and practical view of what `BuildContext` is, how to use it, and why it is so important.
 
 ## What is BuildContext?
 
