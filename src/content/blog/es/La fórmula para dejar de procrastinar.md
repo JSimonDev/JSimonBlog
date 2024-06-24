@@ -33,22 +33,11 @@ Como todo sabemos cada persona es diferente por lo tanto estos contextos, condic
 
 ## ¿Cómo funciona la motivación?
 
-La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White de "Breaking Bad" ¿Cómo es posible que Walter White, un profesor de química de secundaria, aparentemente común y corriente, se convierta en un implacable fabricante de metanfetamina? La respuesta está en su motivación y en cómo esta evoluciona a lo largo de la serie.
+La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White en "Breaking Bad". ¿Cómo es posible que un profesor de química de secundaria, sin experiencia criminal, esté motivado a adentrarse en el peligroso mundo del narcotráfico, enfrentarse a cárteles de la droga, asesinos a sueldo y la DEA, y todo eso simplemente para cocinar metanfetamina? Evidentemente, si lo planteas así, no tiene mucho sentido. Pero si piensas que fabricar y vender esa metanfetamina tiene como resultado asegurar el futuro financiero de su familia antes de morir de cáncer, la cosa cambia bastante.
 
-Inicialmente, el contexto de Walter es crítico: se le diagnostica un cáncer terminal y se enfrenta a la posibilidad de dejar a su familia en la ruina tras su muerte. Este escenario actúa como un poderoso catalizador que desencadena su motivación inicial: asegurar el futuro financiero de su familia.
+El resultado de esa acción es algo que Walter desea con mucha fuerza. Toda acción que realizamos es porque implica un resultado y deseamos dicho resultado. 
 
-La causa de sus acciones, en un principio, es puramente altruista y está impulsada por el amor a su familia. Walter decide utilizar sus conocimientos en química para fabricar metanfetamina de alta pureza, una actividad ilegal pero altamente lucrativa. En este punto, la función que cumple su motivación es clara: proporcionar seguridad económica a sus seres queridos ante su inminente ausencia.
 
-Sin embargo, a medida que la serie avanza, vemos cómo la motivación de Walter evoluciona. El éxito en sus actividades ilegales comienza a satisfacer necesidades más profundas y personales que habían estado reprimidas durante años: reconocimiento, poder y un sentido de logro. Su motivación inicial, aunque sigue presente, se ve eclipsada por estas nuevas fuerzas impulsoras.
 
-El contexto cambia: ya no es solo un hombre enfermo desesperado por ayudar a su familia, sino alguien que ha descubierto un talento y una pasión que nunca antes había experimentado. Las causas de sus acciones se transforman: ya no actúa solo por necesidad, sino también por el deseo de probarse a sí mismo y a los demás de lo que es capaz.
+Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar suficiente dinero para mantener a su familia después de su muerte, y él quiere desesperadamente que eso ocurra.
 
-La función que cumple esta nueva motivación es multifacética:
-
-1. Satisface su necesidad de reconocimiento y respeto.
-2. Le proporciona un sentido de poder y control sobre su vida que antes no tenía.
-3. Le permite experimentar la emoción y el desafío que faltaban en su vida anterior.
-
-Este ejemplo nos muestra cómo la motivación puede ser una fuerza poderosa que nos impulsa a la acción, superando incluso barreras morales y legales. También ilustra cómo nuestras motivaciones pueden evolucionar con el tiempo, cambiando nuestro comportamiento de maneras que quizás nunca hubiéramos anticipado.
-
-En el contexto de la procrastinación, entender nuestra motivación es crucial. Al igual que Walter White, nuestras acciones (o la falta de ellas) están impulsadas por motivaciones complejas que pueden cambiar con el tiempo. Identificar estas motivaciones, entender su función en nuestras vidas, y aprender a canalizarlas de manera productiva puede ser la clave para superar la procrastinación y alcanzar nuestros objetivos.
