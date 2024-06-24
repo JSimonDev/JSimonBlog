@@ -33,11 +33,11 @@ Como todo sabemos cada persona es diferente por lo tanto estos contextos, condic
 
 ## ¿Cómo funciona la motivación?
 
-La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White en "Breaking Bad". ¿Cómo es posible que un profesor de química de secundaria, sin experiencia criminal, esté motivado a adentrarse en el peligroso mundo del narcotráfico, enfrentarse a cárteles de la droga, asesinos a sueldo y la DEA, y todo eso simplemente para cocinar metanfetamina? Evidentemente, si lo planteas así, no tiene mucho sentido. Pero si piensas que fabricar y vender esa metanfetamina tiene como resultado asegurar el futuro financiero de su familia antes de morir de cáncer, la cosa cambia bastante.
+La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White en "Breaking Bad". ¿Cómo es posible que un profesor de química de secundaria, sin experiencia criminal, esté motivado a adentrarse en el peligroso mundo del narcotráfico, enfrentarse a cárteles de la droga, asesinos a sueldo y la DEA, y todo eso simplemente para cocinar metanfetamina? Evidentemente, si lo planteas así, no tiene mucho sentido. Pero si piensas que fabricar y vender esa metanfetamina tiene como resultado asegurar el futuro financiero de su familia antes de morir de cáncer, la cosa cambia bastante. El resultado de esa acción es algo que Walter desea con mucha fuerza. 
 
-El resultado de esa acción es algo que Walter desea con mucha fuerza. Toda acción que realizamos es porque implica un resultado y deseamos dicho resultado. 
+Toda acción que realizamos es porque implica un resultado y deseamos dicho resultado. 
 
+![ecuación](../../../assets/images/ecuation.jpg)
 
-
-Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar suficiente dinero para mantener a su familia después de su muerte, y él quiere desesperadamente que eso ocurra.
+Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar suficiente dinero para mantener a su familia después de su muerte, y él quiere desesperadamente que eso ocurra. Estos son los tres elementos principales para entender la motivación.
 
