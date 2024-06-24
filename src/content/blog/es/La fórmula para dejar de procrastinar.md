@@ -1,21 +1,15 @@
 ---
-title: Título
-color: bg-purple-800
-featured: false
-draft: true
+title: La fórmula para dejar de procrastinar
+color: bg-cyan-800
+featured: true
+draft: false
 author: Jonathan Simon
-description: Descripción
+description: A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz...
 pubDate: 2024-06-24
 tags:
-  - padalustro
-  - app
-  - cultura
-  - development
-  - flutter
-  - historia
-  - lenguaje
-  - reflexión
-  - widgets
+  - productividad
+  - psicología
+  - comportamiento
 ---
 A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz, que no sepas por donde empezar, que te miedo empezarla o que sea tan aburrido que siempre la dejas para después. Independientemente al final todo acaba en lo mismo: "Más tarde lo hago", "Mañana lo termino". Así que hoy te traigo un poco de claridad en el asunto para que puedas lidiar con estos problemas y combatir de una vez por todas a la famosa procrastinación.
 ## Definición
@@ -55,9 +49,7 @@ Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y 
 Lo que hay que entender de esta cuestión es que es imposible estar motivado hacia nada si estos tres elementos no están presentes y alineados entre sí. En el caso de Walter White, vemos cómo estos tres elementos se alinean perfectamente:
 
 1. **Deseo**: Asegurar el futuro de su familia antes de morir.
-
 2. **Acción**: Fabricar y vender metanfetamina.
-
 3. **Resultado**: Ganar una gran cantidad de dinero en poco tiempo.
 
 Esta alineación es lo que impulsa a Walter a tomar decisiones drásticas y a transformarse de un profesor de química común en el infame Heisenberg. A medida que la serie avanza, vemos cómo estos elementos evolucionan, pero siempre manteniéndose alineados, lo que mantiene la motivación de Walter incluso cuando sus acciones se vuelven cada vez más extremas.
