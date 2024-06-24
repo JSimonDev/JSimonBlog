@@ -1,3 +1,8 @@
+# obsidian
+.obsidian/*
+!.obsidian/plugins
+templates/
+
 # build output
 dist/
 # generated types
