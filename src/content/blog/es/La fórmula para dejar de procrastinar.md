@@ -47,7 +47,11 @@ Estos son los tres elementos principales para entender la motivación; deseo, ac
 
 No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo y el resultado que quiere obtener). En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
 
+![ecuación sin la acción](../../../assets/images/ecuation_without_action.jpg)
+
 Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción. Es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, pero no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
+
+
 
 Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y vender metanfetamina, y determinamos también el resultado, que es ganar suficiente dinero para su familia. Pero resulta que Walter, en lugar de ser un hombre desesperado por el futuro de su familia, es un ciudadano ejemplar sin problemas económicos. No habría deseo en conseguir este resultado a través de esta acción y, por tanto, tampoco surgiría la motivación.
 
