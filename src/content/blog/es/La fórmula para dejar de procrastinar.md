@@ -51,7 +51,7 @@ No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pe
 
 Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción. Es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, pero no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
 
-
+![ecuación sin el deseo](../../../assets/images/ecuation_without_desire.jpg)
 
 Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y vender metanfetamina, y determinamos también el resultado, que es ganar suficiente dinero para su familia. Pero resulta que Walter, en lugar de ser un hombre desesperado por el futuro de su familia, es un ciudadano ejemplar sin problemas económicos. No habría deseo en conseguir este resultado a través de esta acción y, por tanto, tampoco surgiría la motivación.
 
