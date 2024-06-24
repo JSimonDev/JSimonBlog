@@ -43,9 +43,9 @@ Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar
 
 Estos son los tres elementos principales para entender la motivación; deseo, acción y resultado y solo cuando están alineados es cuando surge la _motivación_ y si no están alineados o directamente falta alguno, pues la motivación inmediatamente se extingue o no aparece.
 
-![ecuación sin un resultado](../../../assets/images/ecuation_without_result.jpg)
+![ecuación sin un resultado](../../../assets/images/ecuation_without_desire_and_result.jpg)
 
-No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo). En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
+No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo y el resultado que quiere obtener). En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
 
 Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción. Es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, pero no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
 
