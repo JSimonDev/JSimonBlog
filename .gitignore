@@ -1,7 +1,9 @@
 # obsidian
-.obsidian/*
-!.obsidian/plugins
-templates/
+.obsidian/
+
+# obsidian assets and templates
+src/content/blog/assets/
+src/content/blog/templates/
 
 # build output
 dist/
