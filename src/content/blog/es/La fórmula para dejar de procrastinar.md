@@ -4,7 +4,7 @@ color: bg-cyan-800
 featured: true
 draft: false
 author: Jonathan Simon
-description: A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz,
+description: A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz...
 pubDate: 2024-06-24
 tags:
   - padalustro
@@ -43,7 +43,7 @@ Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar
 
 Estos son los tres elementos principales para entender la motivación; deseo, acción y resultado y solo cuando están alineados es cuando surge la _motivación_ y si no están alineados o directamente falta alguno, pues la motivación inmediatamente se extingue o no aparece.
 
-No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina. En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
+No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo). En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
 
 Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción. Es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, pero no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
 
@@ -51,9 +51,9 @@ Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y 
 
 Lo que hay que entender de esta cuestión es que es imposible estar motivado hacia nada si estos tres elementos no están presentes y alineados entre sí. En el caso de Walter White, vemos cómo estos tres elementos se alinean perfectamente:
 
-1. Deseo: Quiere asegurar el futuro de su familia antes de morir.
-2. Acción: Fabricar y vender metanfetamina.
-3. Resultado: Ganar una gran cantidad de dinero en poco tiempo.
+1. **Deseo**: Asegurar el futuro de su familia antes de morir.
+2. **Acción**: Fabricar y vender metanfetamina.
+3. **Resultado**: Ganar una gran cantidad de dinero en poco tiempo.
 
 Esta alineación es lo que impulsa a Walter a tomar decisiones drásticas y a transformarse de un profesor de química común en el infame Heisenberg. A medida que la serie avanza, vemos cómo estos elementos evolucionan, pero siempre manteniéndose alineados, lo que mantiene la motivación de Walter incluso cuando sus acciones se vuelven cada vez más extremas.
 
