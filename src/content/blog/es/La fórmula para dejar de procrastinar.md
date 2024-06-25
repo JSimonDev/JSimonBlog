@@ -11,7 +11,7 @@ tags:
   - psicología
   - comportamiento
 ---
-A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz, que no sepas por donde empezar, que te de miedo empezarla o que sea tan aburrido que siempre la dejas para después. Independientemente al final todo acaba en lo mismo: "Más tarde lo hago", "Mañana lo termino". Así que hoy te traigo un poco de claridad en el asunto para que puedas lidiar con estos problemas y combatir de una vez por todas a la famosa procrastinación.
+A menudo encontrar la motivación para hacer una tarea que no te apetece parece casi imposible, puede que te sientas incapaz, que no sepas por donde empezar, que te de miedo empezarla o que sea tan aburrido que siempre la dejas para después. Independientemente al final todo acaba en lo mismo: "Más tarde lo hago", "Mañana lo termino". Así que hoy te traigo un poco de claridad en el asunto para que puedas lidiar con estos problemas y combatir de una vez por todas a la famosa procrastinación...
 ## Definición
 
 Antes de adentrarnos de lleno en el contenido primero veamos la definición: La **procrastinación** (del [latín](https://es.wikipedia.org/wiki/Lat%C3%ADn "Latín") _procrastinare_: _pro_, adelante, y _crastinus_, mañana),​ **postergación** o **posposición** es la acción o hábito de retrasar actividades o situaciones que deben atenderse, sustituyéndolas por otras situaciones más irrelevantes o agradables por miedo a afrontarlas o pereza a realizarlas.
