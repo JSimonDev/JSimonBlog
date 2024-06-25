@@ -54,4 +54,4 @@ Lo que hay que entender de esta cuestión es que es imposible estar motivado hac
 
 Esta alineación es lo que impulsa a Walter a tomar decisiones drásticas y a transformarse de un profesor de química común en el infame Heisenberg. A medida que la serie avanza, vemos cómo estos elementos evolucionan, pero siempre manteniéndose alineados, lo que mantiene la motivación de Walter incluso cuando sus acciones se vuelven cada vez más extremas.
 
-Pero ojo
+Pero ojo que
