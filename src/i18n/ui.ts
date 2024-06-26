@@ -11,6 +11,7 @@ export const ui = {
     'nav.blog': 'Blog',
     'nav.etiquetas': 'Etiquetas',
     'nav.sobre-mi': 'Sobre mí',
+    'nav.portafolio': 'Portafolio',
     'site.desc': "Espero y disfrutes de mi blog personal, donde comparto contenido sobre tecnología, Flutter, curiosidades y básicamente cualquier cosa que se me ocurra, espero que disfrutes de este blog y que aprendas algo nuevo.",
   },
   en: {
@@ -18,6 +19,7 @@ export const ui = {
     'nav.blog': 'Blog',
     'nav.etiquetas': 'Tags',
     'nav.sobre-mi': 'About me',
+    'nav.portafolio': 'Portfolio',
     'site.desc': "I hope you enjoy my personal blog, where I share content about technology, Flutter, curiosities and basically anything that occurs to me, I hope you enjoy this blog and learn something new.",
   },
 } as const;
