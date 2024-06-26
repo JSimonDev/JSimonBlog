@@ -18,6 +18,13 @@
   src: url(../fonts/SpecialElite-Regular.woff2) format("woff2"),
     url(../fonts/SpecialElite-Regular.woff) format("woff");
 }
+@font-face {
+  font-display: auto;
+  font-family: "Cookie";
+  font-weight: 400;
+  src: url(../fonts/Cookie-Regular.woff2) format("woff2"),
+    url(../fonts/Cookie-Regular.woff) format("woff");
+}
 
 ::selection {
   background: #fbb03b;
@@ -50,6 +57,7 @@
   --text-title-color: #4b4b4b;
   --font-family: "din-next-rounded", sans-serif;
   --special-font: "Special Elite", sans-serif;
+  --cookie-font: "Cookie", sans-serif;
   --card-background-color: #e8f5e9;
   --card-border-color: #aed581;
   --card-text-color: #4caf50;
@@ -110,11 +118,15 @@ a:focus {
 }
 
 .logo-name-span {
-  font-family: var(--special-font);
+  font-family: var(--cookie-font);
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: xx-large;
 }
 
 .logo-blog-span {
   font-family: var(--special-font);
+  font-weight: 400;
 }
 
 .logo a {
@@ -123,30 +135,14 @@ a:focus {
   color: inherit;
 }
 
-.main-site {
-  display: none;
-}
-
 .mobile-menu-open {
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
 }
 
-/* Forms */
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid var(--primary-color);
-  border-radius: 5px;
-}
-
-input:focus,
-textarea:focus {
-  border-color: var(--secondary-color);
-  outline: none;
+.main-site {
+  display: none;
 }
 
 .site-wrapper {
@@ -172,7 +168,6 @@ textarea:focus {
   z-index: 10;
   transition: all 0.3s;
   height: 64px;
-  overflow: none;
 }
 
 .site-header a {
@@ -191,7 +186,7 @@ textarea:focus {
   top: 0;
   z-index: -1;
   opacity: 1;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .site-header .wrapper {
@@ -279,7 +274,6 @@ textarea:focus {
 
 .mobile-menu-open .site-header:before {
   height: 100%;
-  opacity: 1;
 }
 
 @media (min-width: 768px) {
@@ -322,6 +316,14 @@ textarea:focus {
     display: none;
   }
 
+  .main-site {
+    display: flex;
+  }
+
+  .menu-portfolio {
+    display: none;
+  }
+
   .site-header .wrapper {
     display: flex;
     flex-direction: row;
@@ -361,7 +363,7 @@ textarea:focus {
     background: #fbb03b;
     bottom: 5px;
     left: 0;
-    transition: width 0.2s;
+    transition: width 0.1s;
   }
 
   .site-header .menu a:hover::after {
