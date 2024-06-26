@@ -1,13 +1,14 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import MainSite from "@components/MainSite.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
 <div class="menu" id="menu">
-  <ul class="nav">
+  <ul class="nav pr-4">
     <li>
       <a aria-label={t("nav.inicio")} href={getRelativeLocaleUrl(lang, "/")}
         >{t("nav.inicio")}</a>
@@ -28,5 +29,12 @@ const t = useTranslations(lang);
         href={getRelativeLocaleUrl(lang, "about")}>{t("nav.sobre-mi")}</a
       >
     </li>
+    <li class="menu-portfolio">
+      <a
+        aria-label={t("nav.portafolio")}
+        href="https://jsimon.dev">{t("nav.portafolio")}</a
+      >
+    </li>
   </ul>
+  <MainSite />
 </div>
