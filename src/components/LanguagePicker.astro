@@ -2,17 +2,95 @@
 import { languages } from "../i18n/ui";
 ---
 
-<ul class="absolute left-8 top-0 m-0">
-  {
-    Object.entries(languages).map(([lang, label]) => (
-      <li>
-        <a
-        href={lang === "es" ? "/" : `/${lang}/`} 
-        aria-label={label}
-        >
-        {label}
-        </a>
-      </li>
-    ))
+<div class="language-switcher">
+  <select id="language-select" class="language-select">
+    {Object.entries(languages).map(([lang, label]) => (
+      <option value={lang}>{label}</option>
+    ))}
+  </select>
+</div>
+
+<style>
+  .language-switcher {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
   }
-</ul>
+  .language-select {
+    appearance: none;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #e2e8f0;
+    background-color: white;
+    font-size: 1rem;
+    color: #4a5568;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%234a5568'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 1rem auto;
+  }
+  .language-select:hover, .language-select:focus {
+    border-color: #cbd5e0;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+</style>
+
+<script>
+  function getCurrentLang() {
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/([a-z]{2})\//);
+    return langMatch ? langMatch[1] : 'es'; // 'es' como idioma predeterminado
+  }
+
+  function updateSelectValue() {
+    const select = document.getElementById('language-select') as HTMLSelectElement;
+    const currentLang = getCurrentLang();
+    select.value = currentLang;
+    localStorage.setItem('selectedLang', currentLang);
+  }
+
+  function changeLang(newLang: string) {
+    const currentPath = window.location.pathname;
+    let newPath;
+    
+    if (newLang === 'es') {
+      newPath = currentPath.replace(/^\/[a-z]{2}\//, '/');
+    } else {
+      newPath = currentPath.replace(/^\/([a-z]{2}\/)?/, `/${newLang}/`);
+    }
+    
+    if (newPath !== currentPath) {
+      localStorage.setItem('selectedLang', newLang);
+      window.location.href = newPath;
+    }
+  }
+
+  // Función para sincronizar el idioma
+  function syncLanguage() {
+    const storedLang = localStorage.getItem('selectedLang');
+    const currentLang = getCurrentLang();
+    
+    if (storedLang && storedLang !== currentLang) {
+      changeLang(storedLang);
+    } else {
+      updateSelectValue();
+    }
+  }
+
+  // Ejecutar syncLanguage en la carga inicial y después de cada navegación
+  document.addEventListener('astro:page-load', syncLanguage);
+
+  // Manejar el cambio de idioma
+  const select = document.getElementById('language-select') as HTMLSelectElement;
+  select.addEventListener('change', (event) => {
+    const target = event.target as HTMLSelectElement;
+    changeLang(target.value);
+  });
+
+  // Ejecutar syncLanguage inmediatamente para la carga inicial
+  syncLanguage();
+</script>
