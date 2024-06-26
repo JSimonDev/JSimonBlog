@@ -19,39 +19,65 @@ Antes de adentrarnos de lleno en el contenido primero veamos la definición: La�
 Trata de un trastorno [volitivo](https://es.wikipedia.org/wiki/Volitivo "Volitivo") del comportamiento que tiene su raíz en la asociación de la acción por realizar con el cambio, el dolor o la incomodidad ([estrés](https://es.wikipedia.org/wiki/Estr%C3%A9s "Estrés")). Este puede ser psicológico (en la forma de [ansiedad](https://es.wikipedia.org/wiki/Ansiedad "Ansiedad") o [frustración](https://es.wikipedia.org/wiki/Frustraci%C3%B3n "Frustración")), físico (como el que se experimenta durante actos que requieren trabajo fuerte o ejercicio vigoroso) o intelectual. El término se aplica comúnmente al sentido de [ansiedad](https://es.wikipedia.org/wiki/Ansiedad "Ansiedad") generado ante una tarea pendiente sin tener una fuerza de voluntad para concluirla. El acto que se pospone puede ser percibido como abrumador, desafiante, inquietante, peligroso, difícil, tedioso o aburrido, es decir, estresante, por lo cual se autojustifica posponerlo a un futuro _[sine die](https://es.wikipedia.org/wiki/Sine_die "Sine die")_ idealizado, en que lo importante es supeditado a lo urgente.
 ## ¿Por qué procrastinamos?
 
-Bien, ahora que ya sabemos a que nos referimos con _procrastinar_ es hora de preguntarnos: ¿Si ya sé qué es lo que tengo que hacer y como debo hacerlo por qué no lo empiezo? o ¿Por qué no termino ese proyecto que dejé a medias hace una semana? ¿Qué es exactamente lo que me impide completar o llevar a cabo ciertas tareas? Para responder a todas estas interrogantes debemos hacer un **análisis funcional de la conducta**, que es una técnica utilizada en la psicología conductual que busca comprender las causas y consecuencias de un comportamiento específico, esto es de vital importancia tenerlo en cuenta porque nadie actúa simplemente porque sí, si aparece una conducta es porque esta cumple una función, por lo tanto, si tú procrastinas es porque te sirve de algo, es decir, cuando elijes posponer una tarea que tienes pendiente no suele ser porque eres "flojo", sino porque en un contexto determinado bajo ciertas condiciones la postergación de dicha tarea cumple una función.
+Bien, ahora que ya sabemos a qué nos referimos con _procrastinar_, es hora de preguntarnos: ¿Si ya sé qué es lo que tengo que hacer y cómo debo hacerlo, por qué no lo empiezo? O ¿por qué no termino ese proyecto que dejé a medias hace una semana? ¿Qué es exactamente lo que me impide completar o llevar a cabo ciertas tareas? Para responder a todas estas interrogantes debemos hacer un **análisis funcional de la conducta** (una técnica utilizada en la psicología conductual que busca comprender las causas y consecuencias de un comportamiento específico).
 
-Como todo sabemos cada persona es diferente por lo tanto estos contextos, condiciones y funciones van a ser diferentes para cada persona, por lo tanto lo principal aquí es saber identificar cuál es nuestro contexto, cuál es la causa de nuestro accionar y que función esta cumpliendo en nuestro caso específicamente y de ahí elaborar un estrategia teniendo todo esto en cuenta.
+Es de vital importancia tener esto en cuenta debido a que nadie actúa simplemente porque sí. Si aparece una conducta es porque esta cumple una función; por lo tanto, si tú procrastinas es porque te sirve de algo. Es decir, cuando eliges posponer una tarea que tienes pendiente, no suele ser porque eres "flojo", sino porque en un contexto determinado, bajo ciertas condiciones, la postergación de dicha tarea cumple una función.
+
+Como todos sabemos cada persona es diferente, por ende, los contextos, condiciones y funciones van a ser diferentes en cada caso; por lo tanto lo principal aquí es saber identificar cuál es nuestro contexto, cuál es la causa de nuestro accionar y qué función está cumpliendo en nuestro caso específicamente y de ahí elaborar un estrategia teniendo todo esto en cuenta.
 ## ¿Cómo funciona la motivación?
 
-La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White en "Breaking Bad". ¿Cómo es posible que un profesor de química de secundaria, sin experiencia criminal, esté motivado a adentrarse en el peligroso mundo del narcotráfico, enfrentarse a cárteles de la droga, asesinos a sueldo y la DEA, y todo eso simplemente para cocinar metanfetamina? Evidentemente, si lo planteas así, no tiene mucho sentido. Pero si piensas que fabricar y vender esa metanfetamina tiene como resultado asegurar el futuro financiero de su familia antes de morir de cáncer, la cosa cambia bastante. El resultado de esa acción es algo que Walter desea con mucha fuerza.
+La **motivación** es lo que explica por qué las personas o los animales inician, continúan o terminan un cierto comportamiento en un momento determinado. Pongamos como ejemplo a Walter White en "Breaking Bad". ¿Cómo es posible que un profesor de química de secundaria, sin experiencia criminal, esté motivado a adentrarse en el peligroso mundo del narcotráfico, enfrentarse a cárteles de la droga, asesinos a sueldo y la DEA, y todo eso simplemente para cocinar metanfetamina? Evidentemente, si lo planteas así, no tiene mucho sentido. Pero si piensas que fabricar y vender esa metanfetamina tiene como resultado asegurar el futuro financiero de su familia antes de morir de cáncer, la cosa cambia bastante. El resultado de esa acción es algo que Walter desea con mucha fuerza. Toda acción que realizamos es porque implica un resultado y deseamos dicho resultado.
 
-Toda acción que realizamos es porque implica un resultado y deseamos dicho resultado.
+Walter está motivado a fabricar y vender metanfetamina porque ello implica ganar suficiente dinero para mantener a su familia después de su muerte, y quiere desesperadamente que eso ocurra.
+
+Estos son los tres elementos principales para entender la motivación: deseo, acción y resultado, y solo cuando están alineados es cuando surge la _motivación_ y si no están alineados o directamente falta alguno, pues la motivación inmediatamente se extingue o no aparece.
 
 ![ecuación](../../../assets/images/ecuation.jpg)
 
-Walter está motivado a fabricar y vender metanfetamina porque eso implica ganar suficiente dinero para mantener a su familia después de su muerte, y él quiere desesperadamente que eso ocurra.
-
-Estos son los tres elementos principales para entender la motivación; deseo, acción y resultado y solo cuando están alineados es cuando surge la _motivación_ y si no están alineados o directamente falta alguno, pues la motivación inmediatamente se extingue o no aparece.
+No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo y el resultado que quiere obtener). En este caso, estaríamos presentando únicamente a la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
 
 ![ecuación sin un resultado](../../../assets/images/ecuation_without_desire_and_result.jpg)
 
-No tiene sentido que Walter White se adentre en el mundo del narcotráfico si pensamos que lo único que está haciendo es cocinar metanfetamina (excluyendo el motivo que llevó a su deseo y el resultado que quiere obtener). En este caso, estaríamos presentando únicamente la acción sin determinar realmente cuál es su resultado. Claro, es imposible desear dicho resultado si este directamente ni siquiera existe en tu cabeza.
+Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción, es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, sin embargo, no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
 
 ![ecuación sin la acción](../../../assets/images/ecuation_without_action.jpg)
 
-Ahora imaginemos el caso opuesto en el que planteamos un resultado pero no está clara la acción. Es decir, le decimos a Walter que hay una forma de asegurar el futuro financiero de su familia, pero no le determinamos cómo hacerlo. En este caso sería incluso posible que apareciese el deseo, pero como no hay una acción clara para canalizarlo, pues tampoco surge la motivación. Sigue faltando uno de los elementos.
+Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y vender metanfetamina, y determinamos también el resultado, que es ganar suficiente dinero para su familia. Pero resulta que Walter, en lugar de ser un hombre desesperado por el futuro de su familia, es un ciudadano ejemplar sin problemas económicos. No habría deseo en conseguir este resultado a través de esta acción y, por tanto, tampoco surgiría la motivación.
 
 ![ecuación sin el deseo](../../../assets/images/ecuation_without_desire.jpg)
 
-Y ahora imaginemos que determinamos claramente la acción, es decir, fabricar y vender metanfetamina, y determinamos también el resultado, que es ganar suficiente dinero para su familia. Pero resulta que Walter, en lugar de ser un hombre desesperado por el futuro de su familia, es un ciudadano ejemplar sin problemas económicos. No habría deseo en conseguir este resultado a través de esta acción y, por tanto, tampoco surgiría la motivación.
-
-Lo que hay que entender de esta cuestión es que es imposible estar motivado hacia nada si estos tres elementos no están presentes y alineados entre sí. En el caso de Walter White, vemos cómo estos tres elementos se alinean perfectamente:
+Lo que hay que entender de esta cuestión es que es imposible estar motivado hacia nada si estos tres elementos no están presentes y alineados entre sí. En el caso de Walter White, vemos cómo se alinean perfectamente:
 
 1. **Deseo**: Asegurar el futuro de su familia antes de morir.
 2. **Acción**: Fabricar y vender metanfetamina.
 3. **Resultado**: Ganar una gran cantidad de dinero en poco tiempo.
 
-Esta alineación es lo que impulsa a Walter a tomar decisiones drásticas y a transformarse de un profesor de química común en el infame Heisenberg. A medida que la serie avanza, vemos cómo estos elementos evolucionan, pero siempre manteniéndose alineados, lo que mantiene la motivación de Walter incluso cuando sus acciones se vuelven cada vez más extremas.
+Esta alineación es lo que impulsa a Walter a tomar decisiones drásticas y a transformarse de un profesor de química común en el infame Heisenberg. A medida que la serie avanza, vemos cómo estos elementos evolucionan, pero siempre manteniéndose alineados, lo que mantiene la motivación de Walter incluso cuando sus acciones se vuelven cada vez más extremas. Pero ojo porque no es suficiente con que estos tres elementos estén alineados, también es imprescindible que nos sintamos capaces y que percibamos el resultado como algo posible.
 
-Pero ojo que
+Seguramente conoces algún caso donde alguna persona claramente no tiene las capacidades para hacer algo, pero aun así está motivadísima a intentarlo. Lo más probable es que más adelante se tope con sus verdaderas posibilidades, pero hasta que ese momento no llegue, si piensa que hay un resultado posible de conseguir, desea ese resultado y siente que es capaz de lograrlo a través de cierta acción; va a continuar motivada como si no hubiera un mañana. 
+
+Por otro lado, también es común el caso contrario: personas que tienen un talento impresionante pero, por equis razón, piensan que no son capaces y directamente ni lo intentan. Por muy claro que uno lo vea desde fuera, si esa persona no siente que sea posible algo o no se siente capaz de hacerlo, no va a estar motivada a intentarlo, por lo tanto, **_la motivación depende_** en gran medida **_de la percepción_** que tenga uno, **_no de la realidad_**.
+
+Hasta aquí hemos visto _casi_ la fórmula completa de cómo dejar de procrastinar o cómo estar motivado. Digo "casi" porque aún falta un cuarto elemento muy importante. Este último es el responsable de que no lleves a cabo una acción, aun cuando tienes un fuerte deseo por cierto resultado y tienes clara la acción necesaria para alcanzarlo.
+
+A este cuarto elemento lo llamaremos **Resistencia**. Este factor actúa como una barrera que se sitúa entre el Deseo y la Acción.
+
+![resistencia](../../../assets/images/resistance.jpg)
+
+Bien, resulta que la resistencia puede manifestarse de diversas formas. Por ejemplo:
+
+1. Si la acción es clara y posible, pero nos parece difícil o peligrosa, la resistencia toma forma de ansiedad.
+2. Cuando la acción es compleja, la resistencia se presenta como confusión, lo que ocurre cuando no sabemos por dónde empezar.
+3. Si la acción es monótona y poco estimulante, la resistencia se manifiesta como aburrimiento.
+
+Estos son solo algunos ejemplos, pero la resistencia puede adoptar muchas otras formas. En resumidas cuentas, esta suele ser un tipo de emoción con la que no sabemos muy bien cómo lidiar. El verdadero problema surge cuando esa emoción es tan fuerte que cambia el **Deseo**: pasamos de querer el resultado original, a buscar el resultado de una acción alternativa, _el de evadir la resistencia_.
+
+![resistencia](../../../assets/images/avoid_resistance.jpg)
+
+Y como ya sabrás, el nombre que recibe la acción de evadir la resistencia es la **Procrastinación.**
+
+![resistencia](../../../assets/images/procrastination.jpg)
+
+Muchas veces lo que sucede cuando procrastinamos no es que no estemos motivados, sino que lo estamos en una dirección diferente, buscando un nuevo resultado, que es el de _evadir la resistencia_. Bueno, ahora te estarás preguntando **¿Y que solución le podemos dar a esto?** Pues bien, la mayoría de veces percibimos a la procrastinación como algo malo, un mal que definitivamente hay que erradicar, pero en realidad la procrastinación no es más que un síntoma de una enfermedad. Pero... ¿Qué enfermedad? Sí, lo has adivinado: la **Resistencia**.
+
+Así que si no eliminamos a la enfermedad el síntoma nunca desaparecerá y para eliminar a la resistencia primero debemos saber identificar de qué tipo es, que forma esta adoptando en nuestro caso específico, y dependiendo del caso, entonces aprender o elaborar una estrategia alternativa para lidiar con esa resistencia que sea más eficiente que procrastinar.
