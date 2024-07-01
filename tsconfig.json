@@ -11,6 +11,7 @@
       "@fonts/*":      ["fonts/*"],
       "@config":       ["config.ts"],
       "@components/*": ["components/*"],
+      "@markdown/*":   ["components/markdown/*"],
       "@posts/*":      ["pages/posts/*"],
       "@layouts/*":    ["layouts/*"],
       "@pages/*":      ["pages/*"],
