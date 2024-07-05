@@ -4,6 +4,7 @@
 # obsidian assets and templates
 src/content/blog/assets/
 src/content/blog/templates/
+src/content/blog/blog repository/
 
 # build output
 dist/
