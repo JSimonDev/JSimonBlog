@@ -1,8 +1,8 @@
 ---
 title: "Del Papiro al Píxel: La Revolución de la Información"
 color: bg-emerald-800
-featured: false
-draft: true
+featured: true
+draft: false
 author: Jonathan Simon
 description: Descubre cómo la revolución binaria ha transformado nuestra forma de capturar y compartir el conocimiento humano.
 pubDate: 2024-07-05
